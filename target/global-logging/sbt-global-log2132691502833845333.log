@@ -1,0 +1,78 @@
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.9.2 (Oracle Corporation Java 1.8.0_202)
+[debug]                                     Load.loadUnit: plugins took 16.0838ms
+[debug]                                     Load.loadUnit: defsScala took 0.0019ms
+[debug] [Loading] Scanning directory C:\Users\WIM-ESP025\.sbt\1.0\plugins
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\WIM-ESP025\.sbt\1.0\plugins, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 0.9752 ms
+[debug]                                         Load.resolveProject(global-plugins) took 1.0473ms
+[debug]                                       Load.loadTransitive: finalizeProject(Project(id global-plugins, base: C:\Users\WIM-ESP025\.sbt\1.0\plugins, plugins: List(<none>))) took 2.2479ms
+[debug] [Loading] Done in C:\Users\WIM-ESP025\.sbt\1.0\plugins, returning: (global-plugins)
+[debug]                                     Load.loadUnit: loadedProjectsRaw took 13.8589ms
+[debug]                                     Load.loadUnit: cleanEvalClasses took 0.0077ms
+[debug]                                   Load.loadUnit(file:/C:/Users/WIM-ESP025/.sbt/1.0/plugins/, ...) took 30.3639ms
+[debug]                                 Load.apply: load took 31.0766ms
+[debug]                                 Load.apply: resolveProjects took 0.0824ms
+[debug]                                 Load.apply: finalTransforms took 2.578ms
+[debug]                                 Load.apply: config.delegates took 0.1101ms
+[debug]                                 Load.apply: Def.make(settings)... took 24.3938ms
+[debug]                                 Load.apply: structureIndex took 9.5798ms
+[debug]                                 Load.apply: mkStreams took 0.002ms
+[info] loading global plugins from C:\Users\WIM-ESP025\.sbt\1.0\plugins
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug]                               Load.defaultLoad until apply took 225.2159ms
+[debug]                                         Load.loadUnit: plugins took 10.6398ms
+[debug]                                         Load.loadUnit: defsScala took 0.0024ms
+[debug] [Loading] Scanning directory C:\Users\WIM-ESP025\IdeaProjects\FinalProjectSpark\project
+[debug]                                           Load.loadUnit: mkEval took 0.2057ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\WIM-ESP025\IdeaProjects\FinalProjectSpark\project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 0.6044 ms
+[info] loading settings for project finalprojectspark-build from idea.sbt ...
+[debug]                                             Load.resolveProject(finalprojectspark-build) took 1.5399ms
+[debug]                                           Load.loadTransitive: finalizeProject(Project(id finalprojectspark-build, base: C:\Users\WIM-ESP025\IdeaProjects\FinalProjectSpark\project, plugins: List(<none>))) took 2.3991ms
+[debug] [Loading] Done in C:\Users\WIM-ESP025\IdeaProjects\FinalProjectSpark\project, returning: (finalprojectspark-build)
+[debug]                                         Load.loadUnit: loadedProjectsRaw took 16.5916ms
+[debug]                                         Load.loadUnit: cleanEvalClasses took 0.9711ms
+[debug]                                       Load.loadUnit(file:/C:/Users/WIM-ESP025/IdeaProjects/FinalProjectSpark/project/, ...) took 28.616ms
+[debug]                                     Load.apply: load took 29.1743ms
+[debug]                                     Load.apply: resolveProjects took 0.0582ms
+[debug]                                     Load.apply: finalTransforms took 2.2491ms
+[debug]                                     Load.apply: config.delegates took 0.1203ms
+[debug]                                     Load.apply: Def.make(settings)... took 25.8567ms
+[debug]                                     Load.apply: structureIndex took 8.3332ms
+[debug]                                     Load.apply: mkStreams took 0.0027ms
+[info] loading project definition from C:\Users\WIM-ESP025\IdeaProjects\FinalProjectSpark\project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[warn] Unrecognized repository Scala Plugin Bundled Repository, ignoring it
+[warn] Unrecognized repository Scala Plugin Bundled Repository, ignoring it
